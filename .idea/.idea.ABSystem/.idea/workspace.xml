@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89ac0e5b-742c-4d1a-88d6-1d22c5fb05b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AAA.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" selection-start-line="3" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <marker date="1582868790786" expanded="false" signature="6:44" ph="..." />
+                <marker date="1582868790786" expanded="true" signature="78:264" ph="{...}" />
+                <marker date="1582868790786" expanded="true" signature="152:191" ph="{...}" />
+                <marker date="1582868790786" expanded="true" signature="249:262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2434">
+              <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+              <folding>
+                <marker date="1582872469720" expanded="false" signature="6:124" ph="..." />
+                <marker date="1582872469720" expanded="true" signature="138:7370" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="177:240" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="278:7368" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="293:882" ph="//UnityWeb Extension" />
+                <marker date="1582872469720" expanded="true" signature="426:525" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="649:862" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="898:3344" ph="//Download ==&gt;Get" />
+                <marker date="1582872469720" expanded="true" signature="933:1022" ph="///     Download AssetBundle from Get Method ... " />
+                <marker date="1582872469720" expanded="true" signature="1131:1653" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="1565:1593" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="1663:1745" ph="///     Download Text from Get Method ... " />
+                <marker date="1582872469720" expanded="true" signature="1847:2249" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="2164:2192" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="2259:2342" ph="///     Download Bytes from Get Method ... " />
+                <marker date="1582872469720" expanded="true" signature="2445:3324" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3067:3095" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3112:3267" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3354:3954" ph="//Download==&gt;post,put" />
+                <marker date="1582872469720" expanded="true" signature="3456:3661" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3623:3651" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3731:3934" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3896:3924" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="3964:7362" ph="//Continue DownloadFile,Continue DownloadFile better" />
+                <marker date="1582872469720" expanded="true" signature="4034:4119" ph="///     用于边下载边展示的情况,将下载的文件流放在内存中，最后再一起写入 ... " />
+                <marker date="1582872469720" expanded="true" signature="4178:4843" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="4349:4406" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="4443:4530" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="4852:5292" ph="/// 断点续传功能实现： ... " />
+                <marker date="1582872469720" expanded="true" signature="5363:7342" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="5568:5625" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="5841:7242" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="5979:6144" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="6513:7228" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="6630:7210" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="6928:7023" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="7052:7188" ph="{...}" />
+                <marker date="1582872469720" expanded="true" signature="7276:7332" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+              <folding>
+                <marker date="1582871274907" expanded="true" signature="6:30" ph="..." />
+                <marker date="1582871274907" expanded="true" signature="44:1385" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="79:1382" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="147:364" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="274:354" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="382:453" ph="/// Create from FileStream ... " />
+                <marker date="1582871274907" expanded="true" signature="542:975" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="741:805" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="822:874" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="984:1055" ph="/// Create from FileStream ... " />
+                <marker date="1582871274907" expanded="true" signature="1155:1376" ph="{...}" />
+                <marker date="1582871274907" expanded="true" signature="1321:1366" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/95/5e6e0cab/FileInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="411" column="21" selection-start-line="411" selection-start-column="11" selection-end-line="411" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/8d/da8113bd/UnityWebRequest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/4c/7e925a65/AsyncOperation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AAA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/4c/7e925a65/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/8d/da8113bd/UnityWebRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/95/5e6e0cab/FileInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/Class1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.ABSystem/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.ABSystem/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-613" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="IO" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89ac0e5b-742c-4d1a-88d6-1d22c5fb05b6" name="Default Changelist" comment="" />
+      <created>1582869015536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582869015536</updated>
+      <workItem from="1582869016631" duration="3697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3697000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1032" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.34700665" side_tool="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" x="111" y="229" width="386" height="730" id="Project" order="3" sideWeight="0.6515151" visible="true" weight="0.17270789" />
+      <window_info x="699" y="73" width="447" height="934" id="Structure" order="4" sideWeight="0.34848484" side_tool="true" visible="true" weight="0.17270789" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26053214" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8401434" weight="0.27716187" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.06984479" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.35254988" />
+      <window_info anchor="bottom" x="359" y="534" width="1534" height="296" id="Find" order="8" sideWeight="0.23125" weight="0.18403548" />
+      <window_info anchor="bottom" id="Performance Profiler" order="9" sideWeight="0.49803922" weight="0.34035477" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.33481294" weight="0.21064301" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" sideWeight="0.4945122" weight="0.26940134" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.44148937" weight="0.20731707" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.6666667" side_tool="true" weight="0.38026607" />
+      <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.55851066" side_tool="true" weight="0.28159645" />
+      <window_info anchor="bottom" x="53" y="713" width="1876" height="229" id="Stacktrace" order="17" sideWeight="0.76875" side_tool="true" weight="0.32372504" />
+      <window_info anchor="bottom" id="Build" order="18" sideWeight="0.5690789" weight="0.36031044" />
+      <window_info anchor="bottom" id="Inspection Results" order="19" weight="0.3292683" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.21908316" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.498452" weight="0.25746268" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" x="2184" y="351" width="693" height="364" id="Errors In Solution" order="6" sideWeight="0.49948823" side_tool="true" type="FLOATING" weight="0.26012793" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs.meta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="50" column="22" lean-forward="true" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AAA.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1582868790786" expanded="false" signature="6:44" ph="..." />
+            <marker date="1582868790786" expanded="true" signature="78:264" ph="{...}" />
+            <marker date="1582868790786" expanded="true" signature="152:191" ph="{...}" />
+            <marker date="1582868790786" expanded="true" signature="249:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/4c/7e925a65/AsyncOperation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/95/5e6e0cab/FileInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="411" column="21" selection-start-line="411" selection-start-column="11" selection-end-line="411" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/8d/da8113bd/UnityWebRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2434">
+          <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+          <folding>
+            <marker date="1582872469720" expanded="false" signature="6:124" ph="..." />
+            <marker date="1582872469720" expanded="true" signature="138:7370" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="177:240" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="278:7368" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="293:882" ph="//UnityWeb Extension" />
+            <marker date="1582872469720" expanded="true" signature="426:525" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="649:862" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="898:3344" ph="//Download ==&gt;Get" />
+            <marker date="1582872469720" expanded="true" signature="933:1022" ph="///     Download AssetBundle from Get Method ... " />
+            <marker date="1582872469720" expanded="true" signature="1131:1653" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="1565:1593" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="1663:1745" ph="///     Download Text from Get Method ... " />
+            <marker date="1582872469720" expanded="true" signature="1847:2249" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="2164:2192" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="2259:2342" ph="///     Download Bytes from Get Method ... " />
+            <marker date="1582872469720" expanded="true" signature="2445:3324" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3067:3095" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3112:3267" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3354:3954" ph="//Download==&gt;post,put" />
+            <marker date="1582872469720" expanded="true" signature="3456:3661" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3623:3651" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3731:3934" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3896:3924" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="3964:7362" ph="//Continue DownloadFile,Continue DownloadFile better" />
+            <marker date="1582872469720" expanded="true" signature="4034:4119" ph="///     用于边下载边展示的情况,将下载的文件流放在内存中，最后再一起写入 ... " />
+            <marker date="1582872469720" expanded="true" signature="4178:4843" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="4349:4406" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="4443:4530" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="4852:5292" ph="/// 断点续传功能实现： ... " />
+            <marker date="1582872469720" expanded="true" signature="5363:7342" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="5568:5625" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="5841:7242" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="5979:6144" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="6513:7228" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="6630:7210" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="6928:7023" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="7052:7188" ph="{...}" />
+            <marker date="1582872469720" expanded="true" signature="7276:7332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <marker date="1582871274907" expanded="true" signature="6:30" ph="..." />
+            <marker date="1582871274907" expanded="true" signature="44:1385" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="79:1382" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="147:364" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="274:354" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="382:453" ph="/// Create from FileStream ... " />
+            <marker date="1582871274907" expanded="true" signature="542:975" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="741:805" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="822:874" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="984:1055" ph="/// Create from FileStream ... " />
+            <marker date="1582871274907" expanded="true" signature="1155:1376" ph="{...}" />
+            <marker date="1582871274907" expanded="true" signature="1321:1366" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ABSystem.-831107330.00" t="ExcludeRecursive" />
+    <e p="E:\Github\ABSystem" t="IncludeRecursive">
+      <e p="ABSystem.csproj" t="IncludeRecursive" />
+      <e p="ABSystem.Editor.csproj" t="IncludeRecursive" />
+      <e p="ABSystem.sln" t="IncludeFlat" />
+      <e p="Assets" t="Include">
+        <e p="ABSystem" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AssetBundle" t="Include">
+              <e p="ABBuilder.cs" t="Include" />
+              <e p="AssetBundleBuilder4x.cs" t="Include" />
+              <e p="AssetBundleBuilder5x.cs" t="Include" />
+              <e p="AssetBundleDataBinaryWriter.cs" t="Include" />
+              <e p="AssetBundleDataWriter.cs" t="Include" />
+              <e p="AssetBundleUtils.cs" t="Include" />
+              <e p="AssetTarget.cs" t="Include" />
+            </e>
+            <e p="AssetBundleBuildConfig.cs" t="Include" />
+            <e p="AssetBundleBuildPanel.cs" t="Include" />
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="AssetBundle" t="Include">
+              <e p="AssetBundleDataBinaryReader.cs" t="Include" />
+              <e p="AssetBundleDataReader.cs" t="Include" />
+              <e p="AssetBundleExportType.cs" t="Include" />
+              <e p="AssetBundleInfo.cs" t="Include" />
+              <e p="AssetBundleLoader.cs" t="Include" />
+              <e p="AssetBundleLoadProgress.cs" t="Include" />
+              <e p="AssetBundleManager.cs" t="Include" />
+              <e p="AssetBundlePathResolver.cs" t="Include" />
+              <e p="HashUtil.cs" t="Include" />
+              <e p="ListPool.cs" t="Include" />
+              <e p="Loaders" t="Include">
+                <e p="AndroidAssetBundleLoader.cs" t="Include" />
+                <e p="EditorModeAssetBundleLoader.cs" t="Include" />
+                <e p="IOSAssetBundleLoader.cs" t="Include" />
+                <e p="MissAssetBundleLoader.cs" t="Include" />
+              </e>
+              <e p="ObjectPool.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AAA.cs" t="Include" />
+          <e p="IO" t="Include">
+            <e p="FileUtil.cs" t="Include" />
+            <e p="UnityWebUtil.cs" t="Include" />
+          </e>
+          <e p="Test.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\UnityVS_bin\Debug" t="ExcludeRecursive" />
+      <e p="Temp\UnityVS_obj\Debug" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

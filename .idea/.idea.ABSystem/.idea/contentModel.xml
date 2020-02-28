@@ -48,8 +48,13 @@
         <e p="Scripts" t="Include">
           <e p="AAA.cs" t="Include" />
           <e p="IO" t="Include">
+            <e p="DirectoryUtil.cs" t="Include" />
             <e p="FileUtil.cs" t="Include" />
+            <e p="FileUtil.MD5.cs" t="Include" />
+            <e p="Interface.cs" t="Include" />
+            <e p="PathUtil.cs" t="Include" />
             <e p="UnityWebUtil.cs" t="Include" />
+            <e p="WebClientDownload.cs" t="Include" />
           </e>
           <e p="Test.cs" t="Include" />
         </e>

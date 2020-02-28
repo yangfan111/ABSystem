@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ac0e5b-742c-4d1a-88d6-1d22c5fb05b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/DirectoryUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/DirectoryUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/Interface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/Interface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/PathUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/PathUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/WebClientDownload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/WebClientDownload.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ABSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ABSystem/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ABSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ABSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,25 +23,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AAA.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" selection-start-line="3" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <marker date="1582868790786" expanded="false" signature="6:44" ph="..." />
-                <marker date="1582868790786" expanded="true" signature="78:264" ph="{...}" />
-                <marker date="1582868790786" expanded="true" signature="152:191" ph="{...}" />
-                <marker date="1582868790786" expanded="true" signature="249:262" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2434">
-              <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+            <state relative-caret-position="112">
+              <caret line="201" column="41" selection-start-line="201" selection-start-column="41" selection-end-line="201" selection-end-column="41" />
               <folding>
                 <marker date="1582872469720" expanded="false" signature="6:124" ph="..." />
                 <marker date="1582872469720" expanded="true" signature="138:7370" ph="{...}" />
@@ -84,24 +72,147 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/WebClientDownload.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="193" column="65" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="65" />
+              <folding>
+                <marker date="1582876908108" expanded="true" signature="11:79" ph="..." />
+                <marker date="1582876908108" expanded="true" signature="93:5948" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="151:514" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="187:240" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="272:320" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="349:369" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="567:5946" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="1129:1188" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="1199:1431" ph="/// 从网络下载到本地 ... " />
+                <marker date="1582876908108" expanded="true" signature="1520:1764" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="1846:2290" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2327:2669" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2353:2659" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2512:2616" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2703:2907" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2744:2818" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2835:2897" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2939:3090" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="2983:3080" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="3136:3210" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="3220:3365" ph="/// 下载接口： m_client.DownloadFileAsync(new Uri(finalUrl), temp, this); ... " />
+                <marker date="1582876908108" expanded="true" signature="3398:5751" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="3621:3741" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="3827:3924" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="4112:4307" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="4383:5715" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="4491:4615" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="4653:4772" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="4818:4964" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="5038:5486" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="5186:5468" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="5551:5629" ph="{...}" />
+                <marker date="1582876908108" expanded="true" signature="5828:5940" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="546">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
-                <marker date="1582871274907" expanded="true" signature="6:30" ph="..." />
-                <marker date="1582871274907" expanded="true" signature="44:1385" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="79:1382" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="147:364" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="274:354" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="382:453" ph="/// Create from FileStream ... " />
-                <marker date="1582871274907" expanded="true" signature="542:975" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="741:805" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="822:874" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="984:1055" ph="/// Create from FileStream ... " />
-                <marker date="1582871274907" expanded="true" signature="1155:1376" ph="{...}" />
-                <marker date="1582871274907" expanded="true" signature="1321:1366" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="6:30" ph="..." />
+                <marker date="1582874070285" expanded="true" signature="44:1139" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="79:1136" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="108:179" ph="/// Create from FileStream ... " />
+                <marker date="1582874070285" expanded="true" signature="268:715" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="481:545" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="562:614" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="724:795" ph="/// Create from FileStream ... " />
+                <marker date="1582874070285" expanded="true" signature="895:1130" ph="{...}" />
+                <marker date="1582874070285" expanded="true" signature="1075:1120" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/DirectoryUtil.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+              <folding>
+                <marker date="1582876919461" expanded="true" signature="30:2368" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="76:2366" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="132:246" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="327:492" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="563:780" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="690:770" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="789:949" ph="/// Directory.CreateDirectory(destDirName); ... " />
+                <marker date="1582876919461" expanded="true" signature="1050:2351" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="1223:1371" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="1775:1927" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="2046:2315" ph="{...}" />
+                <marker date="1582876919461" expanded="true" signature="2105:2301" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/Interface.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding>
+                <marker date="1582876106026" expanded="true" signature="32:2700" ph="{...}" />
+                <marker date="1582876106026" expanded="true" signature="71:2698" ph="{...}" />
+                <marker date="1582876106026" expanded="true" signature="124:1009" ph="{...}" />
+                <marker date="1582876106026" expanded="true" signature="1087:2692" ph="{...}" />
+                <marker date="1582876106026" expanded="true" signature="1340:2643" ph="{...}" />
+                <marker date="1582876106026" expanded="true" signature="1833:1995" ph="/* case BuildTarget.StandaloneOSXIntel: ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/PathUtil.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <marker date="1582876105841" expanded="true" signature="6:103" ph="..." />
+                <marker date="1582876105841" expanded="true" signature="117:4998" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="152:4996" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="193:1272" ph="//for assetbundle" />
+                <marker date="1582876105841" expanded="true" signature="284:845" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="924:1163" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="1173:1247" ph="/* Application.platform ... */" />
+                <marker date="1582876105841" expanded="true" signature="1282:4990" ph="//for wise" />
+                <marker date="1582876105841" expanded="true" signature="1309:1719" ph="/// string path_unityEditor = System.IO.Path.Combine(Application.dataPath, &quot;Assets/CoreRes/Sound/WiseBank&quot;); ... " />
+                <marker date="1582876105841" expanded="true" signature="1827:2233" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="2419:2803" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="2640:2737" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="2808:2903" ph="/// 1.new System.Uri 标准化路径 ... " />
+                <marker date="1582876105841" expanded="true" signature="2962:3134" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="3140:3217" ph="/// new System.Uri(tmpString):用于Path的标准化 ... " />
+                <marker date="1582876105841" expanded="true" signature="3292:3791" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="3796:3868" ph="/// fromUri.MakeRelativeUri(toUri); ... " />
+                <marker date="1582876105841" expanded="true" signature="3942:4970" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="3957:4316" ph="/* MONO BUG: https://github.com/mono/mono/pull/471 ... */" />
+                <marker date="1582876105841" expanded="true" signature="4363:4903" ph="{...}" />
+                <marker date="1582876105841" expanded="true" signature="4917:4964" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/d8/cf4bdf16/Path.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="1052" column="25" selection-start-line="1052" selection-start-column="25" selection-end-line="1052" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -135,15 +246,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this unitywebrequest</find>
+      <find>platfo</find>
+      <find>platform</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/d8/cf4bdf16/Path.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/PathUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AAA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/4c/7e925a65/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A92591D0-14AD-47AB-B9F4-7E85DCAF2C46/8d/da8113bd/UnityWebRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/DirectoryUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/Interface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AAA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IO/WebClientDownload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/95/5e6e0cab/FileInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -151,8 +274,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/IO/Class1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/PathUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/Interface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/DirectoryUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IO/WebClientDownload.cs" />
       </list>
     </option>
   </component>
@@ -165,10 +292,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-613" />
+    <option name="x" value="-406" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="916" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -255,12 +382,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582869015536</updated>
-      <workItem from="1582869016631" duration="3697000" />
+      <workItem from="1582869016631" duration="7743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3697000" />
+    <option name="totallyTimeSpent" value="7743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,10 +496,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E61C418B-EF2D-4D3C-A0C2-E7E9B2B2EF81/d8/cf4bdf16/Path.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="1052" column="25" selection-start-line="1052" selection-start-column="25" selection-end-line="1052" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <marker date="1582874070285" expanded="true" signature="6:30" ph="..." />
+            <marker date="1582874070285" expanded="true" signature="44:1139" ph="{...}" />
+            <marker date="1582874070285" expanded="true" signature="79:1136" ph="{...}" />
+            <marker date="1582874070285" expanded="true" signature="108:179" ph="/// Create from FileStream ... " />
+            <marker date="1582874070285" expanded="true" signature="268:715" ph="{...}" />
+            <marker date="1582874070285" expanded="true" signature="481:545" ph="{...}" />
+            <marker date="1582874070285" expanded="true" signature="562:614" ph="{...}" />
+            <marker date="1582874070285" expanded="true" signature="724:795" ph="/// Create from FileStream ... " />
+            <marker date="1582874070285" expanded="true" signature="895:1130" ph="{...}" />
+            <marker date="1582874070285" expanded="true" signature="1075:1120" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/Interface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <marker date="1582876106026" expanded="true" signature="32:2700" ph="{...}" />
+            <marker date="1582876106026" expanded="true" signature="71:2698" ph="{...}" />
+            <marker date="1582876106026" expanded="true" signature="124:1009" ph="{...}" />
+            <marker date="1582876106026" expanded="true" signature="1087:2692" ph="{...}" />
+            <marker date="1582876106026" expanded="true" signature="1340:2643" ph="{...}" />
+            <marker date="1582876106026" expanded="true" signature="1833:1995" ph="/* case BuildTarget.StandaloneOSXIntel: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/PathUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <marker date="1582876105841" expanded="true" signature="6:103" ph="..." />
+            <marker date="1582876105841" expanded="true" signature="117:4998" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="152:4996" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="193:1272" ph="//for assetbundle" />
+            <marker date="1582876105841" expanded="true" signature="284:845" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="924:1163" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="1173:1247" ph="/* Application.platform ... */" />
+            <marker date="1582876105841" expanded="true" signature="1282:4990" ph="//for wise" />
+            <marker date="1582876105841" expanded="true" signature="1309:1719" ph="/// string path_unityEditor = System.IO.Path.Combine(Application.dataPath, &quot;Assets/CoreRes/Sound/WiseBank&quot;); ... " />
+            <marker date="1582876105841" expanded="true" signature="1827:2233" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="2419:2803" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="2640:2737" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="2808:2903" ph="/// 1.new System.Uri 标准化路径 ... " />
+            <marker date="1582876105841" expanded="true" signature="2962:3134" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="3140:3217" ph="/// new System.Uri(tmpString):用于Path的标准化 ... " />
+            <marker date="1582876105841" expanded="true" signature="3292:3791" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="3796:3868" ph="/// fromUri.MakeRelativeUri(toUri); ... " />
+            <marker date="1582876105841" expanded="true" signature="3942:4970" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="3957:4316" ph="/* MONO BUG: https://github.com/mono/mono/pull/471 ... */" />
+            <marker date="1582876105841" expanded="true" signature="4363:4903" ph="{...}" />
+            <marker date="1582876105841" expanded="true" signature="4917:4964" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/UnityWebUtil.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2434">
-          <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+        <state relative-caret-position="112">
+          <caret line="201" column="41" selection-start-line="201" selection-start-column="41" selection-end-line="201" selection-end-column="41" />
           <folding>
             <marker date="1582872469720" expanded="false" signature="6:124" ph="..." />
             <marker date="1582872469720" expanded="true" signature="138:7370" ph="{...}" />
@@ -416,23 +614,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/FileUtil.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/DirectoryUtil.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="774">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
           <folding>
-            <marker date="1582871274907" expanded="true" signature="6:30" ph="..." />
-            <marker date="1582871274907" expanded="true" signature="44:1385" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="79:1382" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="147:364" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="274:354" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="382:453" ph="/// Create from FileStream ... " />
-            <marker date="1582871274907" expanded="true" signature="542:975" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="741:805" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="822:874" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="984:1055" ph="/// Create from FileStream ... " />
-            <marker date="1582871274907" expanded="true" signature="1155:1376" ph="{...}" />
-            <marker date="1582871274907" expanded="true" signature="1321:1366" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="30:2368" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="76:2366" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="132:246" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="327:492" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="563:780" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="690:770" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="789:949" ph="/// Directory.CreateDirectory(destDirName); ... " />
+            <marker date="1582876919461" expanded="true" signature="1050:2351" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="1223:1371" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="1775:1927" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="2046:2315" ph="{...}" />
+            <marker date="1582876919461" expanded="true" signature="2105:2301" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IO/WebClientDownload.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="193" column="65" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="65" />
+          <folding>
+            <marker date="1582876908108" expanded="true" signature="11:79" ph="..." />
+            <marker date="1582876908108" expanded="true" signature="93:5948" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="151:514" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="187:240" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="272:320" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="349:369" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="567:5946" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="1129:1188" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="1199:1431" ph="/// 从网络下载到本地 ... " />
+            <marker date="1582876908108" expanded="true" signature="1520:1764" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="1846:2290" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2327:2669" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2353:2659" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2512:2616" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2703:2907" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2744:2818" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2835:2897" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2939:3090" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="2983:3080" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="3136:3210" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="3220:3365" ph="/// 下载接口： m_client.DownloadFileAsync(new Uri(finalUrl), temp, this); ... " />
+            <marker date="1582876908108" expanded="true" signature="3398:5751" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="3621:3741" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="3827:3924" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="4112:4307" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="4383:5715" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="4491:4615" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="4653:4772" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="4818:4964" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="5038:5486" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="5186:5468" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="5551:5629" ph="{...}" />
+            <marker date="1582876908108" expanded="true" signature="5828:5940" ph="{...}" />
           </folding>
         </state>
       </provider>

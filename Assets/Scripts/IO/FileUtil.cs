@@ -3,16 +3,9 @@ using System.IO;
 
 namespace IO
 {
-    public static class FileUtil
+    public  static partial class FileUtil
     {
-        public static void CreateDirFromFile(string filePath)
-        {
-            string dirPath = Path.GetDirectoryName(filePath);
-            if (!Directory.Exists(dirPath)) //判断路径是否存在
-            {
-                Directory.CreateDirectory(dirPath);
-            }
-        }
+    
         
         /// <summary>
         /// Create from FileStream
@@ -21,7 +14,7 @@ namespace IO
         public static void CreateFile(string filePath, byte[] bytes, int length)
         {
             //先看看Dir是否存在再说
-            CreateDirFromFile(filePath);
+            DirectoryUtil.CreateDirFromFile(filePath);
            
             FileStream sw;
             FileInfo file = new FileInfo(filePath);
@@ -43,7 +36,7 @@ namespace IO
         /// </summary>
         public static void CreateFileByCallback(string filePath,System.Action<FileStream> callback)
         {
-            CreateDirFromFile(filePath);
+            DirectoryUtil.CreateDirFromFile(filePath);
             using (FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write))
             {
                 callback(fs);
